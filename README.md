@@ -89,3 +89,30 @@ flowchart LR
 | 10 | [Complexity Analysis, Properly](src/part3/ch10-complexity-analysis.md) | Constraints → target complexity, from a measured Python budget |
 | 11 | [Python Performance Reality](src/part3/ch11-python-performance-reality.md) | Why CPython is slow, and "push the loop into C" |
 | 12 | [Operation Complexity Cheat Sheet](src/part3/ch12-operation-complexity-cheat-sheet.md) | Every common operation's cost, with the reason |
+
+### Part IV · Array Patterns
+
+| # | Chapter | Core idea |
+|---|---|---|
+| 13 | [Array Fundamentals & In-Place](src/part4/ch13-array-fundamentals-and-in-place.md) | Write pointers, fill from the back, rotate by reversal |
+| 14 | [Hashing & Frequency Counting](src/part4/ch14-hashing-and-frequency-counting.md) | Complements, signatures, buckets |
+| 15 | [Prefix Sums & Difference Arrays](src/part4/ch15-prefix-sums-and-difference-arrays.md) | `sum(a[i:j]) = p[j] − p[i]`, prefix + hash map |
+| 16 | [Two Pointers](src/part4/ch16-two-pointers.md) | Discard one candidate per step |
+| 17 | [Sliding Window](src/part4/ch17-sliding-window.md) | Shrink while invalid; exactly k = at most k − at most (k−1) |
+| 18 | [Sorting as a Tool](src/part4/ch18-sorting-as-a-tool.md) | Merge/quick/counting sort by hand, intervals, quickselect |
+| 19 | [Binary Search](src/part4/ch19-binary-search.md) | One invariant; binary search on the answer |
+| 20 | [Kadane & Subarray Optimization](src/part4/ch20-kadane-and-subarray-optimization.md) | Best sum ending here; a gentle start on DP |
+| 21 | [Monotonic Stack & Deque](src/part4/ch21-monotonic-stack-and-deque.md) | Next greater, histograms, window maximum |
+| 22 | [Matrices](src/part4/ch22-matrices.md) | Rotate, spiral, in-grid markers |
+| 23 | [Index Tricks & Voting](src/part4/ch23-index-tricks-and-voting.md) | Cyclic sort, Floyd, Boyer–Moore, XOR |
+
+### Part V · String Patterns
+
+| # | Chapter | Core idea |
+|---|---|---|
+| 24 | [String Fundamentals](src/part5/ch24-string-fundamentals-for-dsa.md) | `ord` arithmetic, tokenizing, building strings |
+| 25 | [Hashing on Strings](src/part5/ch25-hashing-on-strings.md) | Signatures, sliding counts, rolling hashes |
+| 26 | [Palindromes](src/part5/ch26-palindromes-and-two-pointers.md) | Two pointers inward, expand around centers, Manacher |
+| 27 | [Sliding Window on Strings](src/part5/ch27-sliding-window-on-strings.md) | The need/have technique |
+| 28 | [Parsing, Simulation & Stacks](src/part5/ch28-parsing-simulation-and-stacks.md) | atoi, decoding, calculators, digit arithmetic |
+| 29 | [String Matching Algorithms](src/part5/ch29-string-matching-algorithms.md) | Rabin–Karp, KMP, Z-function |

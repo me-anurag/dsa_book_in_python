@@ -134,3 +134,16 @@ flowchart LR
 | C | [Re-solve Tracker](src/appendix/c-resolve-tracker.md) | Day 1 / 3 / 7 / 21 columns for every problem |
 | D | [Hints and Solutions](src/appendix/d-hints-and-solutions.md) | Exercise answers and practice hints, kept away from the problems |
 | E | [Glossary](src/appendix/e-glossary.md) | 52 terms with the chapter that explains each |
+
+## 🔁 The practice method
+
+Reading doesn't create mastery; solving does. For every problem:
+
+1. **Struggle for 25–40 minutes** before taking a hint, and take a hint before reading a solution.
+2. **Read the solution, close it, and re-code it from a blank file.**
+3. **Log the clue** that revealed the pattern in your pattern notebook.
+4. **Re-solve on a schedule**, and restart at day 1 if a re-solve fails:
+
+<div align="center">
+<img src="media/resolve-timeline.svg" alt="Re-solve on day 1, day 3, day 7 and day 21" width="100%"/>
+</div>

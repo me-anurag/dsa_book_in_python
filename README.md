@@ -33,3 +33,30 @@ for LeetCode-style problems and coding interviews.**
 Every chapter is plain Markdown and renders directly on GitHub. Start with the
 **[Front Matter](src/00-front-matter.md)**: how the book is organized, the practice
 method, and the re-solve schedule.
+
+## 🗺️ Learning roadmap
+
+```mermaid
+flowchart LR
+    F([Front Matter]) --> P1
+    subgraph P1 [Part I · Python dialect]
+        C1[Ch 1–4]
+    end
+    subgraph P2 [Part II · Toolkit]
+        C5[Ch 5–9]
+    end
+    subgraph P3 [Part III · Performance]
+        C10[Ch 10–12]
+    end
+    subgraph P4 [Part IV · Array patterns]
+        C13[Ch 13–23]
+    end
+    subgraph P5 [Part V · String patterns]
+        C24[Ch 24–29]
+    end
+    subgraph P6 [Part VI · Mastery]
+        C30[Ch 30–32]
+    end
+    P1 --> P2 --> P3 --> P4 --> P5 --> P6
+    P6 --> A([Appendices A–E])
+```

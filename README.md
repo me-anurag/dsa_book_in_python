@@ -116,3 +116,21 @@ flowchart LR
 | 27 | [Sliding Window on Strings](src/part5/ch27-sliding-window-on-strings.md) | The need/have technique |
 | 28 | [Parsing, Simulation & Stacks](src/part5/ch28-parsing-simulation-and-stacks.md) | atoi, decoding, calculators, digit arithmetic |
 | 29 | [String Matching Algorithms](src/part5/ch29-string-matching-algorithms.md) | Rabin–Karp, KMP, Z-function |
+
+### Part VI · Mastery
+
+| # | Chapter | What it gives you |
+|---|---|---|
+| 30 | [Pattern Recognition](src/part6/ch30-pattern-recognition.md) | 51 signal phrases, a decision tree, an interview attack method |
+| 31 | [Mixed Problem Sets](src/part6/ch31-mixed-problem-sets.md) | 5 unlabeled sets of 8 and two timed mock interviews |
+| 32 | [Bugs, Edge Cases & Debugging](src/part6/ch32-bugs-edge-cases-and-debugging.md) | The 25 most common bugs, stress testing, shrinking |
+
+### Appendices
+
+| | Appendix | |
+|---|---|---|
+| A | [Cheat Sheets](src/appendix/a-cheat-sheets.md) | Every chapter's cheat sheet, ready to print |
+| B | [Master Problem List](src/appendix/b-master-problem-list.md) | All 119 problems with pattern, chapter and link |
+| C | [Re-solve Tracker](src/appendix/c-resolve-tracker.md) | Day 1 / 3 / 7 / 21 columns for every problem |
+| D | [Hints and Solutions](src/appendix/d-hints-and-solutions.md) | Exercise answers and practice hints, kept away from the problems |
+| E | [Glossary](src/appendix/e-glossary.md) | 52 terms with the chapter that explains each |

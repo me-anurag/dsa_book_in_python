@@ -1,8 +1,10 @@
-# Publish only the book's chapters and appendices (src/) plus the README.
-# Everything else (code, benchmarks, build tooling, outputs, planning notes, venv)
-# stays local.
+# Publish only the book's chapters and appendices (src/), the README and its
+# graphics (media/). Everything else (code, benchmarks, build tooling, outputs,
+# planning notes, venv) stays local.
 
 /*
 !/.gitignore
+!/.gitattributes
 !/README.md
 !/src/
+!/media/

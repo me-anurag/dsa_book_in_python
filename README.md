@@ -39,13 +39,13 @@ method, and the re-solve schedule.
 ```mermaid
 flowchart LR
     F([Front Matter]) --> P1
-    subgraph P1 [Part I · Python dialect]
+    subgraph P1 [Part I · Python for LeetCode]
         C1[Ch 1–4]
     end
-    subgraph P2 [Part II · Toolkit]
+    subgraph P2 [Part II · Python toolkit]
         C5[Ch 5–9]
     end
-    subgraph P3 [Part III · Performance]
+    subgraph P3 [Part III · Complexity & performance]
         C10[Ch 10–12]
     end
     subgraph P4 [Part IV · Array patterns]
@@ -54,7 +54,7 @@ flowchart LR
     subgraph P5 [Part V · String patterns]
         C24[Ch 24–29]
     end
-    subgraph P6 [Part VI · Mastery]
+    subgraph P6 [Part VI · Interview mastery]
         C30[Ch 30–32]
     end
     P1 --> P2 --> P3 --> P4 --> P5 --> P6
@@ -63,7 +63,9 @@ flowchart LR
 
 ## 📚 Table of contents
 
-### Part I · The LeetCode Python Dialect
+### [Part I · Python for LeetCode](src/part1-python-for-leetcode/README.md)
+
+*How a solution is structured, type hints, and the semantics that silently break answers*
 
 | # | Chapter | You'll learn |
 |---|---|---|
@@ -72,7 +74,9 @@ flowchart LR
 | 3 | [Core Python Semantics](src/part1-python-for-leetcode/ch03-core-python-semantics.md) | Aliasing, `//` with negatives, no overflow, the self-referencing swap trap |
 | 4 | [Comprehensions & Generators](src/part1-python-for-leetcode/ch04-comprehensions-and-generators.md) | Grids without aliasing, lazy evaluation, measured speed |
 
-### Part II · The Complete Toolkit
+### [Part II · The Python Toolkit](src/part2-python-toolkit/README.md)
+
+*Every `str` and `list` method, the built-ins and stdlib you'll use, and what to hand-write*
 
 | # | Chapter | You'll learn |
 |---|---|---|
@@ -82,7 +86,9 @@ flowchart LR
 | 8 | [Standard Library for DSA](src/part2-python-toolkit/ch08-standard-library-for-dsa.md) | `Counter`, `deque`, `heapq`, `bisect`, `itertools`, `functools`, `math` |
 | 9 | [Built-in vs Hand-Written](src/part2-python-toolkit/ch09-built-in-vs-hand-written.md) | The tier map, and the statement phrases that take built-ins away |
 
-### Part III · Complexity & Python Performance
+### [Part III · Complexity & Performance](src/part3-complexity-and-performance/README.md)
+
+*Reasoning about complexity, how fast CPython really is, and the cost of every operation*
 
 | # | Chapter | You'll learn |
 |---|---|---|
@@ -90,7 +96,9 @@ flowchart LR
 | 11 | [Python Performance Reality](src/part3-complexity-and-performance/ch11-python-performance-reality.md) | Why CPython is slow, and "push the loop into C" |
 | 12 | [Operation Complexity Cheat Sheet](src/part3-complexity-and-performance/ch12-operation-complexity-cheat-sheet.md) | Every common operation's cost, with the reason |
 
-### Part IV · Array Patterns
+### [Part IV · Array Patterns](src/part4-array-patterns/README.md)
+
+*Eleven techniques, from in-place edits and hashing to binary search, Kadane and monotonic stacks*
 
 | # | Chapter | Core idea |
 |---|---|---|
@@ -106,7 +114,9 @@ flowchart LR
 | 22 | [Matrices](src/part4-array-patterns/ch22-matrices.md) | Rotate, spiral, in-grid markers |
 | 23 | [Index Tricks & Voting](src/part4-array-patterns/ch23-index-tricks-and-voting.md) | Cyclic sort, Floyd, Boyer–Moore, XOR |
 
-### Part V · String Patterns
+### [Part V · String Patterns](src/part5-string-patterns/README.md)
+
+*Fundamentals, hashing, palindromes, windows, parsing with stacks, and string matching*
 
 | # | Chapter | Core idea |
 |---|---|---|
@@ -117,7 +127,9 @@ flowchart LR
 | 28 | [Parsing, Simulation & Stacks](src/part5-string-patterns/ch28-parsing-simulation-and-stacks.md) | atoi, decoding, calculators, digit arithmetic |
 | 29 | [String Matching Algorithms](src/part5-string-patterns/ch29-string-matching-algorithms.md) | Rabin–Karp, KMP, Z-function |
 
-### Part VI · Mastery
+### [Part VI · Interview Mastery](src/part6-interview-mastery/README.md)
+
+*Recognizing patterns from the statement, mixed sets with mock interviews, and debugging*
 
 | # | Chapter | What it gives you |
 |---|---|---|
@@ -125,7 +137,9 @@ flowchart LR
 | 31 | [Mixed Problem Sets](src/part6-interview-mastery/ch31-mixed-problem-sets.md) | 5 unlabeled sets of 8 and two timed mock interviews |
 | 32 | [Bugs, Edge Cases & Debugging](src/part6-interview-mastery/ch32-bugs-edge-cases-and-debugging.md) | The 25 most common bugs, stress testing, shrinking |
 
-### Appendices
+### [Appendices · Reference & Practice Tools](src/appendix/README.md)
+
+*Cheat sheets, the master problem list, a re-solve tracker, hints and solutions, and a glossary*
 
 | | Appendix | |
 |---|---|---|

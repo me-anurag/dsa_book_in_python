@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300"
+     role="img" aria-label="Arrays and Strings in Python: two pointers converging on a target sum">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="55%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1000" height="300" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .title { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 44px; font-weight: 700; fill: #ffffff; letter-spacing: 0.5px; }
+    .sub   { font-family: 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 19px; font-weight: 400; fill: #cbd5e1; }
+    .cell  { fill: #111827; stroke: #38bdf8; stroke-width: 2; }
+    .num   { font-family: Consolas, 'Courier New', monospace; font-size: 22px; font-weight: 600; fill: #e2e8f0; text-anchor: middle; }
+    .ptr   { font-family: Consolas, 'Courier New', monospace; font-size: 17px; font-weight: 700; fill: #fbbf24; text-anchor: middle; }
+    .tri   { fill: #fbbf24; }
+    .eq    { font-family: Consolas, 'Courier New', monospace; font-size: 20px; font-weight: 600; fill: #34d399; text-anchor: middle; }
+    .left  { animation: goRight 7s ease-in-out infinite; }
+    .right { animation: goLeft 7s ease-in-out infinite; }
+    .hit   { animation: reveal 7s ease-in-out infinite; opacity: 0; }
+    .sweep { animation: sweep 5s linear infinite; }
+    .fadein { animation: fadeIn 1.2s ease-out both; }
+    @keyframes goRight { 0%, 12% { transform: translateX(0); }
+                          50%, 72% { transform: translateX(198px); }
+                          95%, 100% { transform: translateX(0); } }
+    @keyframes goLeft  { 0%, 12% { transform: translateX(0); }
+                          50%, 72% { transform: translateX(-198px); }
+                          95%, 100% { transform: translateX(0); } }
+    @keyframes reveal  { 0%, 48% { opacity: 0; } 54%, 72% { opacity: 1; }
+                          80%, 100% { opacity: 0; } }
+    @keyframes sweep   { from { transform: translateX(-400px); } to { transform: translateX(1100px); } }
+    @keyframes fadeIn  { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect class="sweep" x="0" y="0" width="300" height="300" fill="url(#shine)"/>
+    <text class="title fadein" x="500" y="72" text-anchor="middle">Arrays &amp; Strings in Python</text>
+    <text class="sub fadein" x="500" y="108" text-anchor="middle">From Syntax to Mastery · LeetCode Edition</text>
+    <text class="eq" x="500" y="145" opacity="0.75">target = 15</text>
+    <rect class="cell" x="240" y="158" width="58" height="58" rx="10"/>
+    <text class="num" x="269.0" y="196">1</text>
+    <rect class="cell" x="306" y="158" width="58" height="58" rx="10"/>
+    <text class="num" x="335.0" y="196">2</text>
+    <rect class="cell" x="372" y="158" width="58" height="58" rx="10"/>
+    <text class="num" x="401.0" y="196">4</text>
+    <rect class="cell" x="438" y="158" width="58" height="58" rx="10"/>
+    <text class="num" x="467.0" y="196">6</text>
+    <rect class="cell" x="504" y="158" width="58" height="58" rx="10"/>
+    <text class="num" x="533.0" y="196">9</text>
+    <rect class="cell" x="570" y="158" width="58" height="58" rx="10"/>
+    <text class="num" x="599.0" y="196">11</text>
+    <rect class="cell" x="636" y="158" width="58" height="58" rx="10"/>
+    <text class="num" x="665.0" y="196">15</text>
+    <rect class="cell" x="702" y="158" width="58" height="58" rx="10"/>
+    <text class="num" x="731.0" y="196">19</text>
+    <g class="left">
+      <path class="tri" d="M 260.0 238 L 278.0 238 L 269.0 224 Z"/>
+      <text class="ptr" x="269.0" y="258">left</text>
+    </g>
+    <g class="right">
+      <path class="tri" d="M 722.0 238 L 740.0 238 L 731.0 224 Z"/>
+      <text class="ptr" x="731.0" y="258">right</text>
+    </g>
+    <text class="eq hit" x="500" y="150">6 + 9 = 15 ✓</text>
+  </g>
+</svg>

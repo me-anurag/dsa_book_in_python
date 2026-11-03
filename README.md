@@ -133,7 +133,7 @@ flowchart LR
 | B | [Master Problem List](src/appendix/b-master-problem-list.md) | All 119 problems with pattern, chapter and link |
 | C | [Re-solve Tracker](src/appendix/c-resolve-tracker.md) | Day 1 / 3 / 7 / 21 columns for every problem |
 | D | [Hints and Solutions](src/appendix/d-hints-and-solutions.md) | Exercise answers and practice hints, kept away from the problems |
-| E | [Glossary](src/appendix/e-glossary.md) | 52 terms with the chapter that explains each |
+| E | [Glossary](src/appendix/e-glossary.md) | 48 terms with the chapter that explains each |
 
 ## 🔁 The practice method
 

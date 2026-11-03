@@ -147,3 +147,25 @@ Reading doesn't create mastery; solving does. For every problem:
 <div align="center">
 <img src="media/resolve-timeline.svg" alt="Re-solve on day 1, day 3, day 7 and day 21" width="100%"/>
 </div>
+
+## 🧩 Patterns you'll master
+
+<div align="center">
+<img src="media/patterns.svg" alt="Two pointers, sliding window, prefix sums, hashing, binary search, Kadane, monotonic stack and more" width="100%"/>
+</div>
+
+## 📖 How this book is written
+
+- **Every complexity claim comes with a reason**: time and auxiliary space, stated separately.
+- **Every speed claim was measured** (CPython 3.13.2), or is explicitly labeled as general knowledge.
+- **Every version-specific feature is tagged** with the Python version that introduced it.
+- **Every tool carries a tier**: **[USE-FREELY]**, **[KNOW-HOW]** or **[HAND-WRITE]**.
+- **No problem statements are copied.** Each problem is summarized in the book's own words and linked to LeetCode.
+
+> **Note:** the chapters mention supporting files under `code/` and `bench/` (tested
+> solutions and benchmarks). Those aren't part of this repository; the chapters include
+> the full solution code inline.
+
+<div align="center">
+<img src="media/wave.svg" alt="" width="100%"/>
+</div>

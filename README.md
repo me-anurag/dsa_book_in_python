@@ -67,63 +67,63 @@ flowchart LR
 
 | # | Chapter | You'll learn |
 |---|---|---|
-| 1 | [Anatomy of a LeetCode Solution](src/part1/ch01-anatomy-of-a-leetcode-solution.md) | How the judge calls your code; why `nums = nums[::-1]` fails |
-| 2 | [Type Hints, Completely](src/part1/ch02-type-hints-completely.md) | `List[int]` vs `list[int]`, `Optional` vs `\| None`, and what each Python version allows |
-| 3 | [Core Python Semantics](src/part1/ch03-core-python-semantics.md) | Aliasing, `//` with negatives, no overflow, the self-referencing swap trap |
-| 4 | [Comprehensions & Generators](src/part1/ch04-comprehensions-and-generators.md) | Grids without aliasing, lazy evaluation, measured speed |
+| 1 | [Anatomy of a LeetCode Solution](src/part1-python-for-leetcode/ch01-anatomy-of-a-leetcode-solution.md) | How the judge calls your code; why `nums = nums[::-1]` fails |
+| 2 | [Type Hints, Completely](src/part1-python-for-leetcode/ch02-type-hints-completely.md) | `List[int]` vs `list[int]`, `Optional` vs `\| None`, and what each Python version allows |
+| 3 | [Core Python Semantics](src/part1-python-for-leetcode/ch03-core-python-semantics.md) | Aliasing, `//` with negatives, no overflow, the self-referencing swap trap |
+| 4 | [Comprehensions & Generators](src/part1-python-for-leetcode/ch04-comprehensions-and-generators.md) | Grids without aliasing, lazy evaluation, measured speed |
 
 ### Part II · The Complete Toolkit
 
 | # | Chapter | You'll learn |
 |---|---|---|
-| 5 | [Every `str` Method](src/part2/ch05-every-str-method.md) | All 47 methods, `split()` vs `split(" ")`, why `+=` can go quadratic |
-| 6 | [Every `list` Operation](src/part2/ch06-every-list-operation.md) | Dynamic arrays, `pop(0)` vs `pop()`, stable multi-key sorting |
-| 7 | [Built-in Functions for DSA](src/part2/ch07-built-in-functions-for-dsa.md) | Iterators vs lists, banker's rounding, `int()` pitfalls |
-| 8 | [Standard Library for DSA](src/part2/ch08-standard-library-for-dsa.md) | `Counter`, `deque`, `heapq`, `bisect`, `itertools`, `functools`, `math` |
-| 9 | [Built-in vs Hand-Written](src/part2/ch09-built-in-vs-hand-written.md) | The tier map, and the statement phrases that take built-ins away |
+| 5 | [Every `str` Method](src/part2-python-toolkit/ch05-every-str-method.md) | All 47 methods, `split()` vs `split(" ")`, why `+=` can go quadratic |
+| 6 | [Every `list` Operation](src/part2-python-toolkit/ch06-every-list-operation.md) | Dynamic arrays, `pop(0)` vs `pop()`, stable multi-key sorting |
+| 7 | [Built-in Functions for DSA](src/part2-python-toolkit/ch07-built-in-functions-for-dsa.md) | Iterators vs lists, banker's rounding, `int()` pitfalls |
+| 8 | [Standard Library for DSA](src/part2-python-toolkit/ch08-standard-library-for-dsa.md) | `Counter`, `deque`, `heapq`, `bisect`, `itertools`, `functools`, `math` |
+| 9 | [Built-in vs Hand-Written](src/part2-python-toolkit/ch09-built-in-vs-hand-written.md) | The tier map, and the statement phrases that take built-ins away |
 
 ### Part III · Complexity & Python Performance
 
 | # | Chapter | You'll learn |
 |---|---|---|
-| 10 | [Complexity Analysis, Properly](src/part3/ch10-complexity-analysis.md) | Constraints → target complexity, from a measured Python budget |
-| 11 | [Python Performance Reality](src/part3/ch11-python-performance-reality.md) | Why CPython is slow, and "push the loop into C" |
-| 12 | [Operation Complexity Cheat Sheet](src/part3/ch12-operation-complexity-cheat-sheet.md) | Every common operation's cost, with the reason |
+| 10 | [Complexity Analysis, Properly](src/part3-complexity-and-performance/ch10-complexity-analysis.md) | Constraints → target complexity, from a measured Python budget |
+| 11 | [Python Performance Reality](src/part3-complexity-and-performance/ch11-python-performance-reality.md) | Why CPython is slow, and "push the loop into C" |
+| 12 | [Operation Complexity Cheat Sheet](src/part3-complexity-and-performance/ch12-operation-complexity-cheat-sheet.md) | Every common operation's cost, with the reason |
 
 ### Part IV · Array Patterns
 
 | # | Chapter | Core idea |
 |---|---|---|
-| 13 | [Array Fundamentals & In-Place](src/part4/ch13-array-fundamentals-and-in-place.md) | Write pointers, fill from the back, rotate by reversal |
-| 14 | [Hashing & Frequency Counting](src/part4/ch14-hashing-and-frequency-counting.md) | Complements, signatures, buckets |
-| 15 | [Prefix Sums & Difference Arrays](src/part4/ch15-prefix-sums-and-difference-arrays.md) | `sum(a[i:j]) = p[j] − p[i]`, prefix + hash map |
-| 16 | [Two Pointers](src/part4/ch16-two-pointers.md) | Discard one candidate per step |
-| 17 | [Sliding Window](src/part4/ch17-sliding-window.md) | Shrink while invalid; exactly k = at most k − at most (k−1) |
-| 18 | [Sorting as a Tool](src/part4/ch18-sorting-as-a-tool.md) | Merge/quick/counting sort by hand, intervals, quickselect |
-| 19 | [Binary Search](src/part4/ch19-binary-search.md) | One invariant; binary search on the answer |
-| 20 | [Kadane & Subarray Optimization](src/part4/ch20-kadane-and-subarray-optimization.md) | Best sum ending here; a gentle start on DP |
-| 21 | [Monotonic Stack & Deque](src/part4/ch21-monotonic-stack-and-deque.md) | Next greater, histograms, window maximum |
-| 22 | [Matrices](src/part4/ch22-matrices.md) | Rotate, spiral, in-grid markers |
-| 23 | [Index Tricks & Voting](src/part4/ch23-index-tricks-and-voting.md) | Cyclic sort, Floyd, Boyer–Moore, XOR |
+| 13 | [Array Fundamentals & In-Place](src/part4-array-patterns/ch13-array-fundamentals-and-in-place.md) | Write pointers, fill from the back, rotate by reversal |
+| 14 | [Hashing & Frequency Counting](src/part4-array-patterns/ch14-hashing-and-frequency-counting.md) | Complements, signatures, buckets |
+| 15 | [Prefix Sums & Difference Arrays](src/part4-array-patterns/ch15-prefix-sums-and-difference-arrays.md) | `sum(a[i:j]) = p[j] − p[i]`, prefix + hash map |
+| 16 | [Two Pointers](src/part4-array-patterns/ch16-two-pointers.md) | Discard one candidate per step |
+| 17 | [Sliding Window](src/part4-array-patterns/ch17-sliding-window.md) | Shrink while invalid; exactly k = at most k − at most (k−1) |
+| 18 | [Sorting as a Tool](src/part4-array-patterns/ch18-sorting-as-a-tool.md) | Merge/quick/counting sort by hand, intervals, quickselect |
+| 19 | [Binary Search](src/part4-array-patterns/ch19-binary-search.md) | One invariant; binary search on the answer |
+| 20 | [Kadane & Subarray Optimization](src/part4-array-patterns/ch20-kadane-and-subarray-optimization.md) | Best sum ending here; a gentle start on DP |
+| 21 | [Monotonic Stack & Deque](src/part4-array-patterns/ch21-monotonic-stack-and-deque.md) | Next greater, histograms, window maximum |
+| 22 | [Matrices](src/part4-array-patterns/ch22-matrices.md) | Rotate, spiral, in-grid markers |
+| 23 | [Index Tricks & Voting](src/part4-array-patterns/ch23-index-tricks-and-voting.md) | Cyclic sort, Floyd, Boyer–Moore, XOR |
 
 ### Part V · String Patterns
 
 | # | Chapter | Core idea |
 |---|---|---|
-| 24 | [String Fundamentals](src/part5/ch24-string-fundamentals-for-dsa.md) | `ord` arithmetic, tokenizing, building strings |
-| 25 | [Hashing on Strings](src/part5/ch25-hashing-on-strings.md) | Signatures, sliding counts, rolling hashes |
-| 26 | [Palindromes](src/part5/ch26-palindromes-and-two-pointers.md) | Two pointers inward, expand around centers, Manacher |
-| 27 | [Sliding Window on Strings](src/part5/ch27-sliding-window-on-strings.md) | The need/have technique |
-| 28 | [Parsing, Simulation & Stacks](src/part5/ch28-parsing-simulation-and-stacks.md) | atoi, decoding, calculators, digit arithmetic |
-| 29 | [String Matching Algorithms](src/part5/ch29-string-matching-algorithms.md) | Rabin–Karp, KMP, Z-function |
+| 24 | [String Fundamentals](src/part5-string-patterns/ch24-string-fundamentals-for-dsa.md) | `ord` arithmetic, tokenizing, building strings |
+| 25 | [Hashing on Strings](src/part5-string-patterns/ch25-hashing-on-strings.md) | Signatures, sliding counts, rolling hashes |
+| 26 | [Palindromes](src/part5-string-patterns/ch26-palindromes-and-two-pointers.md) | Two pointers inward, expand around centers, Manacher |
+| 27 | [Sliding Window on Strings](src/part5-string-patterns/ch27-sliding-window-on-strings.md) | The need/have technique |
+| 28 | [Parsing, Simulation & Stacks](src/part5-string-patterns/ch28-parsing-simulation-and-stacks.md) | atoi, decoding, calculators, digit arithmetic |
+| 29 | [String Matching Algorithms](src/part5-string-patterns/ch29-string-matching-algorithms.md) | Rabin–Karp, KMP, Z-function |
 
 ### Part VI · Mastery
 
 | # | Chapter | What it gives you |
 |---|---|---|
-| 30 | [Pattern Recognition](src/part6/ch30-pattern-recognition.md) | 51 signal phrases, a decision tree, an interview attack method |
-| 31 | [Mixed Problem Sets](src/part6/ch31-mixed-problem-sets.md) | 5 unlabeled sets of 8 and two timed mock interviews |
-| 32 | [Bugs, Edge Cases & Debugging](src/part6/ch32-bugs-edge-cases-and-debugging.md) | The 25 most common bugs, stress testing, shrinking |
+| 30 | [Pattern Recognition](src/part6-interview-mastery/ch30-pattern-recognition.md) | 51 signal phrases, a decision tree, an interview attack method |
+| 31 | [Mixed Problem Sets](src/part6-interview-mastery/ch31-mixed-problem-sets.md) | 5 unlabeled sets of 8 and two timed mock interviews |
+| 32 | [Bugs, Edge Cases & Debugging](src/part6-interview-mastery/ch32-bugs-edge-cases-and-debugging.md) | The 25 most common bugs, stress testing, shrinking |
 
 ### Appendices
 
